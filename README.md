@@ -1,3 +1,5 @@
+# double deprecated -- use <https://legacy.blog.ari.lt/>
+
 # [Ari-web old blogs](https://legacy.blog.ari-web.xyz/)
 
 <p align="center">

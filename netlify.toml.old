@@ -1,10 +1,38 @@
-# for pre-ari.lt see netlify.toml.old
+[[redirects]]
+    from = "/git/*"
+    to = "https://ari-web.xyz/gh/legacy.blog.ari-web.xyz/:splat"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/favicon.ico"
+    to = "https://ari-web.xyz/favicon.ico"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/robots.txt"
+    to = "https://ari-web.xyz/robots.txt"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/sitemap.xml"
+    to = "https://ari-web.xyz/sitemap.xml"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/netlify.toml"
+    to = "https://ari-web.xyz/404.oldblog.xyz"
+    status = 404
+    force = true
 
 [[redirects]]
     from = "/*"
-    to = "https://legacy.blog.ari.lt/:splat"
-    status = 301
-    force = true
+    to = "https://ari-web.xyz/404.oldblog.xyz"
+    status = 404
+    force = false
 
 # Processing
 [build.processing]
